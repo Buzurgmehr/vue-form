@@ -27,9 +27,6 @@
     <div class="submit">
         <button>Submit</button>
     </div>
-    <!-- <div class="clearBtn">
-        <button @click="clc">Clear</button>
-    </div> -->
   </form>
 </template>
 
@@ -64,10 +61,6 @@ export default {
         handleSubmit(){
             this.passwordError = this.password.length > 5 ? '' : 'Password at least 6 must be'
         },
-        // clc(){
-        //     this.email = this.email = "",
-        //     this.password = this.password = ""
-        // }
     },
 
     
@@ -85,7 +78,7 @@ export default {
     }
 
     label{
-        color: #aaa;
+        color: rgb(231, 3, 3);
         display: inline-block;
         margin: 25px 0 15px;
         font-size: 0.6em;
